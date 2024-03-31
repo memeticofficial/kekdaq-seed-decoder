@@ -4008,11 +4008,11 @@ var livenet = new Network();
 _.extend(livenet, {
   name: 'livenet',
   alias: 'mainnet',
-  pubkeyhash: 0x1e,
-  privatekey: 0x9e,
-  scripthash: 0x16,
-  xpubkey:  0x02facafd,
-  xprivkey: 0x02fac398,
+  pubkeyhash: 0x37,
+  privatekey: 0x99,
+  scripthash: 0x55,
+  xpubkey: 0x0488b21e,
+  xprivkey: 0x0488ade4,
   networkMagic: BufferUtil.integerAsBuffer(0xf9beb4d9),
   port: 8333,
   dnsSeeds: [
